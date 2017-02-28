@@ -17,14 +17,14 @@ $ yarn install
 Run these two commands __simultaneously__ in different console tabs.
 
 ```bash
-$ npm run hot-server
-$ npm run start-hot
+$ yarn hot-server
+$ yarn start-hot
 ```
 
 or run two servers with one command
 
 ```bash
-$ npm run dev
+$ yarn dev
 ```
 
 ## CSS Modules
@@ -48,7 +48,7 @@ If you want to import global css libraries (like `bootstrap`), you can just writ
 To package apps for the local platform:
 
 ```bash
-$ npm run package
+$ yarn package
 ```
 
 To package apps for all platforms:
@@ -57,13 +57,13 @@ First, refer to [Multi Platform Build](https://github.com/electron-userland/elec
 
 Then,
 ```bash
-$ npm run package-all
+$ yarn package-all
 ```
 
 To package apps with options:
 
 ```bash
-$ npm run package -- --[option]
+$ yarn package -- --[option]
 ```
 
 ## Further commands
@@ -71,13 +71,13 @@ $ npm run package -- --[option]
 To run the application without packaging run
 
 ```bash
-$ npm run build
-$ npm start
+$ yarn build
+$ yarn start
 ```
 
 To run End-to-End Test
 
 ```bash
-$ npm run build
-$ npm run test-e2e
+$ yarn build
+$ yarn test-e2e
 ```

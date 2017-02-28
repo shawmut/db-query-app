@@ -1,13 +1,13 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "electron-react-boilerplate",
-  "version": "1.0.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "db-query-app",
+  "productName": "db-query-app",
+  "version": "0.1.0",
+  "description": "Enterprise DB Query Application Built with Electron, React, and Redux",
   "main": "./main.js",
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Colin Smith",
+    "email": "cmsgoboston41@gmail.com",
+    "url": "https://github.com/beardedyeti"
   },
   "license": "MIT",
   "dependencies": {
