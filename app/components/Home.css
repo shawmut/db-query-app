@@ -6,15 +6,21 @@
 
 .container h2 {
   	font-size: 5rem;
-  	position: absolute;
-	top: 30%;
-	left: 10px;
+  	position: relative;
+	text-align: center;
+	padding-top: 3em;
+}
+
+@media screen and (max-width: 557px) {
+    .container h2 {
+    	font-size: 4rem;
+    }
 }
 
 .container a {
   	font-size: 3rem;
     position: relative;
-	top: 50%;
+	top: 60%;
 	left: 10px;
 	text-align: center;
 }
